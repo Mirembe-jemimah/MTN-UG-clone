@@ -1,7 +1,8 @@
 body{
-    margin: 0px;
+    margin: 5px;
     padding: 0px;
     background-color: white;
+    margin-left: 20px;
 }
 .container{
     
@@ -76,17 +77,35 @@ p{
     display: flex;
     gap: 180px;
     border-radius: 15px, 50px;
+
+
    
+}
+.format :hover, :active{
+    background-color: rgb(199, 197, 197);
+    margin: 10px;
+    padding: 10px;
+    
 }
 .image{
     margin-top: 18px;
+    height: 45px;
+
 }
 .latest{
     margin-left: 30px;
     background-color: white;
     margin-left: 50px;
 }
-h1{
+.news{
+    padding-left: 50px;
+    padding-top: 30px;
+    margin-left: 390px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: bolder;
+}
+.carosel-inner>h1{
     font-size: 50px;
     font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-weight: bolder;
@@ -107,6 +126,12 @@ h1{
     
     
 }
+.action-text, a:link{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    margin-top: 10px;
+}
 .bgLight{
    background: no-repeat;
    border-image: 40%;
@@ -116,9 +141,112 @@ h1{
     justify-content: center;
     border-radius: 30px;
     background-color: black;
+    margin-left: 500px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color:white;
+    width: 200px;
+    padding: 5px;
+    text-align: center;
+     border: none;
     
 }
-.view-more-block{
-    justify-content: center;
+
+#contain{
+    display: flex;
+    flex-direction: row;
+    border-radius: 30px;
+    margin-left: 28px;
+    margin-right: 0px;
+    width: 1400px;
+    height:900px;
+    gap:30px;
+    background-image: url("woodhut.jpg");
+    image-orientation: flip;
+    /* background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); */
+}
+
+ul#horizontal-list  {
+    overflow: hidden;
+    list-style-type: none;
+    display: flex;
+    gap: 70px;
+    margin-left: 70px;
+    margin-top: 100px;
     
+}
+.headings{
+    list-style: none;
+    border-radius: 30px;
+    border: 2px solid #2e2e2e;
+    padding: 20px; 
+    width: 270px;
+    height: 180px; 
+    margin-top: 30px;
+    float: left;
+    color: rgb(12, 12, 12);
+    background-color: rgb(86, 160, 102);
+    
+    
+}
+.head{
+    margin-top: 45px;
+    text-align: center;
+}
+.para{
+    font-size: 15px;
+    text-align: center;
+   
+}
+h3{
+    margin-left: 500px;
+    padding-top: 400px;
+}
+.three-icon-container{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+    gap: 150px;
+    padding-top: 30px;
+    
+    
+}
+.each-icon{
+ display: flex;
+ align-items: center;
+}
+
+.container2{
+    background-image: url("business.jpg");
+    width: 1200px;
+    height:500px;
+    background-size: cover;
+    margin-top: 60px;
+}
+.investment-img{
+    margin-left: 20px;
+    height: 300px;
+}
+.inner-container{
+    background-color: white;
+    width: 400px;
+    margin-left: 40px;
+    margin-right: 20px;
+    border-radius: 30px;
+    border: 2px solid #2e2e2e;
+    padding: 20px; 
+    height: 400px; 
+   
+    
+}
+.display{
+    display: flex;
+}
+.investor{
+    margin-top: -350px;
+}
+.investor >h3 {
+    margin-left: -0.5px;
+    font-size: 34px;
+    font-style: italic;
 }
